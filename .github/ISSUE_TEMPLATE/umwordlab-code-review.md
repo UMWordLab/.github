@@ -88,3 +88,11 @@ Pitfalls
 - [ ] No instances of `attach()` or `setwd()`
 - [ ] No reliance on a system-specific startup file, such as `.Rprofile`
 - [ ] No use of magrittr shortcuts `%<>%` and omission of `()` on functions that don’t have arguments
+
+Analysis Checks
+---
+
+- [ ] Practice trials and irrelevant/unusable trials are excluded where necessary
+- [ ] Outliers are calculated consistently and clearly labeled
+- [ ] Outliers are excluded or accounted for consistently
+- [ ] Exclusions as above and the process by which they were located are noted and clearly explained
